@@ -1,0 +1,231 @@
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://example.com/path-to-your-milk-tea-background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #FFEB3B; /* Yellow for header text */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FFEB3B; /* Yellow for links */
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #FF5722; /* Coral on hover */
+}
+
+/* Main Section Styling */
+main {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light frosted background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #FFEB3B; /* Yellow for titles */
+}
+
+.profile p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Menu Section */
+.menu {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light frosted background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.menu h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #FFEB3B; /* Yellow for titles */
+}
+
+.menu table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.menu table th, .menu table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu table th {
+    background-color: rgba(255, 255, 255, 0.3); /* Light transparent background */
+}
+
+.menu table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+}
+
+/* Order History Section */
+.orders {
+    background-color: rgba(255, 255, 255, 0.2); /* Light frosted background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.orders h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #FFEB3B; /* Yellow for titles */
+}
+
+.orders table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.orders table th, .orders table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.orders table th {
+    background-color: rgba(255, 255, 255, 0.3); /* Light transparent background */
+}
+
+.orders table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+}
+
+
+
+
+/* Button Styling */
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .profile h2, .menu h2, .orders h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile p, .menu table, .orders table {
+        font-size: 1rem;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333; /* Dark background for footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer .footer-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer .footer-content a {
+    color: #FFEB3B; /* Yellow for links */
+    text-decoration: none;
+}
+
+footer .footer-content a:hover {
+    text-decoration: underline;
+    color: #FF5722; /* Coral on hover */
+}
+
+/* Small screen adjustments */
+@media (max-width: 768px) {
+    footer .footer-content p {
+        font-size: 0.9rem;
+    }
+}
